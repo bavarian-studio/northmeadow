@@ -1,0 +1,192 @@
+[
+  {
+    "name": "bug",
+    "color": "d73a4a",
+    "description": "Something is not working as expected."
+  },
+  {
+    "name": "feature request",
+    "color": "a2eeef",
+    "description": "An idea for improving Northmeadow."
+  },
+  {
+    "name": "question",
+    "color": "d876e3",
+    "description": "A question about using Northmeadow."
+  },
+  {
+    "name": "documentation",
+    "color": "0075ca",
+    "description": "A correction or improvement to the documentation."
+  },
+  {
+    "name": "regression",
+    "color": "d93f0b",
+    "description": "Something that worked before no longer works."
+  },
+  {
+    "name": "performance",
+    "color": "fbca04",
+    "description": "Slowness or excessive resource use."
+  },
+  {
+    "name": "data-loss",
+    "color": "b60205",
+    "description": "Missing or lost data."
+  },
+  {
+    "name": "confusing-ux",
+    "color": "c5def5",
+    "description": "An interaction or message is confusing."
+  },
+  {
+    "name": "area:install",
+    "color": "1d76db",
+    "description": "Installation and updates."
+  },
+  {
+    "name": "area:sign-in-and-devices",
+    "color": "1d76db",
+    "description": "PIN, passkeys and adding another device."
+  },
+  {
+    "name": "area:mandates",
+    "color": "1d76db",
+    "description": "Creating, opening and closing mandates."
+  },
+  {
+    "name": "area:notes-and-editor",
+    "color": "1d76db",
+    "description": "Reading, writing and saving notes."
+  },
+  {
+    "name": "area:search",
+    "color": "1d76db",
+    "description": "Finding content within or across mandates."
+  },
+  {
+    "name": "area:import",
+    "color": "1d76db",
+    "description": "Importing PDF files, OCR and folders."
+  },
+  {
+    "name": "area:agents-and-connector",
+    "color": "1d76db",
+    "description": "MCP connections and agent access."
+  },
+  {
+    "name": "area:record",
+    "color": "1d76db",
+    "description": "The Record and its audit entries."
+  },
+  {
+    "name": "area:people-and-invitations",
+    "color": "1d76db",
+    "description": "People, invitations and access."
+  },
+  {
+    "name": "area:sync",
+    "color": "1d76db",
+    "description": "Keeping changes in sync across devices."
+  },
+  {
+    "name": "area:self-hosted",
+    "color": "1d76db",
+    "description": "Running and maintaining your own installation."
+  },
+  {
+    "name": "area:billing",
+    "color": "1d76db",
+    "description": "Billing and licences."
+  },
+  {
+    "name": "area:website-and-docs",
+    "color": "1d76db",
+    "description": "The website and user documentation."
+  },
+  {
+    "name": "platform:windows",
+    "color": "5319e7",
+    "description": "Reports concerning Windows."
+  },
+  {
+    "name": "platform:macos",
+    "color": "5319e7",
+    "description": "Reports concerning macOS."
+  },
+  {
+    "name": "platform:linux",
+    "color": "5319e7",
+    "description": "Reports concerning Linux."
+  },
+  {
+    "name": "platform:web",
+    "color": "5319e7",
+    "description": "Reports concerning the web interface."
+  },
+  {
+    "name": "platform:ios",
+    "color": "5319e7",
+    "description": "Reports concerning iOS."
+  },
+  {
+    "name": "platform:android",
+    "color": "5319e7",
+    "description": "Reports concerning Android."
+  },
+  {
+    "name": "priority:high",
+    "color": "b60205",
+    "description": "High priority, assigned by maintainers."
+  },
+  {
+    "name": "priority:medium",
+    "color": "fbca04",
+    "description": "Medium priority, assigned by maintainers."
+  },
+  {
+    "name": "priority:low",
+    "color": "0e8a16",
+    "description": "Low priority, assigned by maintainers."
+  },
+  {
+    "name": "needs-triage",
+    "color": "fbca04",
+    "description": "Awaiting an initial look."
+  },
+  {
+    "name": "needs-info",
+    "color": "d4c5f9",
+    "description": "More information is needed."
+  },
+  {
+    "name": "needs-repro",
+    "color": "fef2c0",
+    "description": "Reproduction steps need confirmation."
+  },
+  {
+    "name": "reproduced",
+    "color": "0e8a16",
+    "description": "The reported behaviour has been reproduced."
+  },
+  {
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "description": "Already covered by another issue."
+  },
+  {
+    "name": "invalid",
+    "color": "e4e669",
+    "description": "Not an actionable issue in this repository."
+  },
+  {
+    "name": "wontfix",
+    "color": "ffffff",
+    "description": "Reviewed and not planned for a change."
+  },
+  {
+    "name": "stale",
+    "color": "eeeeee",
+    "description": "No recent activity; awaiting a fresh assessment."
+  }
+]
