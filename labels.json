@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bug",
+    "color": "d73a4a",
+    "description": "Something is not working as expected."
+  },
+  {
+    "name": "feature request",
+    "color": "a2eeef",
+    "description": "An idea for improving Northmeadow."
+  },
+  {
+    "name": "question",
+    "color": "d876e3",
+    "description": "A question about using Northmeadow."
+  },
+  {
+    "name": "needs-triage",
+    "color": "fbca04",
+    "description": "Awaiting an initial look."
+  }
+]

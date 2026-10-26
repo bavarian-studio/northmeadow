@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a way to make Northmeadow more useful.
+labels: ["feature request", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you post**
+
+        These issues are intended to be public. Do not include customer data,
+        note contents, names, or screenshots of mandates. Use invented examples
+        and leave out passwords, recovery keys, tokens, and other secrets.
+
+        For a security concern, use the [private reporting form](https://github.com/bavarian-studio/northmeadow/security/advisories/new)
+        instead of opening an issue.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the task or difficulty using an invented example.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+      description: How would you like Northmeadow to help?
+    validations:
+      required: true

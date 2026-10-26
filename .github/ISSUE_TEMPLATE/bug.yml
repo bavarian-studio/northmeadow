@@ -1,0 +1,54 @@
+name: Bug report
+description: Tell us about something that is not working as expected.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you post**
+
+        These issues are intended to be public. Do not include customer data,
+        note contents, names, or screenshots of mandates. Use invented examples
+        and leave out passwords, recovery keys, tokens, and other secrets.
+
+        For a security concern, use the [private reporting form](https://github.com/bavarian-studio/northmeadow/security/advisories/new)
+        instead of opening an issue.
+  - type: input
+    id: version
+    attributes:
+      label: Northmeadow version
+      description: The version or build number you are using.
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system and version
+      description: Leave out account names and device identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe each action using invented examples.
+      placeholder: |
+        1. Open ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What happened instead? Describe the behaviour without copying note contents or logs.
+    validations:
+      required: true
