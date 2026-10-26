@@ -1,18 +1,63 @@
 name: Bug report
 description: Tell us about something that is not working as expected.
-labels: ["bug", "needs-triage"]
+labels:
+  - bug
+  - needs-triage
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         **Before you post**
 
+
         These issues are intended to be public. Do not include customer data,
+
         note contents, names, or screenshots of mandates. Use invented examples
+
         and leave out passwords, recovery keys, tokens, and other secrets.
 
-        For a security concern, use the [private reporting form](https://github.com/bavarian-studio/northmeadow/security/advisories/new)
+
+        For a security concern, use the [private reporting
+        form](https://github.com/bavarian-studio/northmeadow/security/advisories/new)
+
         instead of opening an issue.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Choose the closest match, or Not sure.
+      options:
+        - Not sure
+        - Install
+        - Sign-in and devices
+        - Mandates
+        - Notes and editor
+        - Search
+        - Import
+        - Agents and connector
+        - Record
+        - People and invitations
+        - Sync
+        - Self-hosted
+        - Billing
+        - Website and docs
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Choose the closest match, or Not sure.
+      options:
+        - Not sure
+        - Windows
+        - macOS
+        - Linux
+        - Web
+        - iOS
+        - Android
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
