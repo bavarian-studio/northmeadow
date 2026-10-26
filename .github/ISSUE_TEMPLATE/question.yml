@@ -1,0 +1,29 @@
+name: Question
+description: Ask about using Northmeadow.
+labels: ["question", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you post**
+
+        These issues are intended to be public. Do not include customer data,
+        note contents, names, or screenshots of mandates. Use invented examples
+        and leave out passwords, recovery keys, tokens, and other secrets.
+
+        For a security concern, use the [private reporting form](https://github.com/bavarian-studio/northmeadow/security/advisories/new)
+        instead of opening an issue.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Tell us what you need help with, using an invented example if helpful.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Northmeadow version
+      description: If relevant, include the version or build number you are using.
+    validations:
+      required: false
