@@ -1,16 +1,12 @@
 <p align="center">
   <a href="https://northmeadow.ai">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/northmeadow-mark-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset=".github/assets/northmeadow-mark-light.svg">
-      <img src=".github/assets/northmeadow-mark-light.svg" alt="Northmeadow mark" width="88" height="88">
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/northmeadow-banner-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset=".github/assets/northmeadow-banner-light.svg">
+      <img src=".github/assets/northmeadow-banner-light.svg" alt="Northmeadow — The company brain for AI agents. Secured." width="840">
     </picture>
   </a>
 </p>
-
-<h1 align="center">Northmeadow</h1>
-
-<p align="center"><strong>The company brain for AI agents. Secured.</strong></p>
 
 <p align="center">
   <a href="https://northmeadow.ai">Website</a> ·
@@ -20,15 +16,17 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Alpha-b78b45?style=flat" alt="Status: Alpha">
-  <a href="https://northmeadow.ai"><img src="https://img.shields.io/badge/Website-northmeadow.ai-36594b?style=flat" alt="Website: northmeadow.ai"></a>
-  <img src="https://img.shields.io/badge/Hosting-EU-496777?style=flat" alt="Hosting: EU">
+  <img src="https://img.shields.io/badge/Status-Alpha-B4EF4E?style=flat&amp;labelColor=120F1B" alt="Status: Alpha">
+  <a href="https://northmeadow.ai"><img src="https://img.shields.io/badge/Website-northmeadow.ai-3D6A07?style=flat&amp;labelColor=120F1B" alt="Website: northmeadow.ai"></a>
+  <img src="https://img.shields.io/badge/Hosting-EU-8A6D2A?style=flat&amp;labelColor=120F1B" alt="Hosting: EU">
 </p>
 
-## One place for your company's knowledge
+## Three parts, unique only together
 
 What your agents work out and what your people bring in lives in one place.
 Any agent, from any provider, reads and writes the same knowledge.
+We store it and cannot read it.
+
 A mandate is the unit of work: a client, a project, a case.
 
 - **Brain.** One state of knowledge per mandate that every agent reads and writes. New knowledge reaches everyone it concerns.
@@ -37,7 +35,7 @@ A mandate is the unit of work: a client, a project, a case.
 
 **The original wins.** People and agents work in the same original notes, rather than a pre-extracted summary. [Read the MemoryTax study](https://arxiv.org/html/2610.29823).
 
-## Try the alpha
+## Try it on your own machine
 
 Northmeadow is in alpha. The first downloads will appear under [Releases](https://github.com/bavarian-studio/northmeadow/releases).
 Visit [northmeadow.ai](https://northmeadow.ai) for the product overview and to request the alpha.
