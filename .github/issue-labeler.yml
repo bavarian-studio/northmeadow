@@ -1,0 +1,38 @@
+area:install:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Install[ \t]*(?=\r?\n|$)/m
+area:sign-in-and-devices:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Sign-in and devices[ \t]*(?=\r?\n|$)/m
+area:mandates:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Mandates[ \t]*(?=\r?\n|$)/m
+area:notes-and-editor:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Notes and editor[ \t]*(?=\r?\n|$)/m
+area:search:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Search[ \t]*(?=\r?\n|$)/m
+area:import:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Import[ \t]*(?=\r?\n|$)/m
+area:agents-and-connector:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Agents and connector[ \t]*(?=\r?\n|$)/m
+area:record:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Record[ \t]*(?=\r?\n|$)/m
+area:people-and-invitations:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*People and invitations[ \t]*(?=\r?\n|$)/m
+area:sync:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Sync[ \t]*(?=\r?\n|$)/m
+area:self-hosted:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Self-hosted[ \t]*(?=\r?\n|$)/m
+area:billing:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Billing[ \t]*(?=\r?\n|$)/m
+area:website-and-docs:
+  - /^### Area[ \t]*\r?\n(?:[ \t]*\r?\n)*Website and docs[ \t]*(?=\r?\n|$)/m
+platform:windows:
+  - /^### Platform[ \t]*\r?\n(?:[ \t]*\r?\n)*Windows[ \t]*(?=\r?\n|$)/m
+platform:macos:
+  - /^### Platform[ \t]*\r?\n(?:[ \t]*\r?\n)*macOS[ \t]*(?=\r?\n|$)/m
+platform:linux:
+  - /^### Platform[ \t]*\r?\n(?:[ \t]*\r?\n)*Linux[ \t]*(?=\r?\n|$)/m
+platform:web:
+  - /^### Platform[ \t]*\r?\n(?:[ \t]*\r?\n)*Web[ \t]*(?=\r?\n|$)/m
+platform:ios:
+  - /^### Platform[ \t]*\r?\n(?:[ \t]*\r?\n)*iOS[ \t]*(?=\r?\n|$)/m
+platform:android:
+  - /^### Platform[ \t]*\r?\n(?:[ \t]*\r?\n)*Android[ \t]*(?=\r?\n|$)/m
