@@ -31,7 +31,7 @@ A mandate is the unit of work: a client, a project, a case.
 
 - **Brain.** One state of knowledge per mandate that every agent reads and writes. New knowledge reaches everyone it concerns.
 - **Confidential.** Each mandate is sealed. The keys stay with the people and agents entitled to them; we cannot read your notes.
-- **Checkable.** Every access is in the Record, a hash chain your company checks itself with the open-source verifier.
+- **Checkable.** Every access to Northmeadow is in the Record, a hash chain your company checks itself with the open-source verifier.
 
 **The original wins.** People and agents work in the same original notes, rather than a pre-extracted summary. [Read the MemoryTax study](https://arxiv.org/html/2610.29823).
 
@@ -43,6 +43,16 @@ Visit [northmeadow.ai](https://northmeadow.ai) for the product overview and to r
 The **Family Version is coming soon**: a shared, protected place for the family's knowledge.
 
 This repository holds releases, user documentation and feedback. The application's code is not in this repository.
+
+## Verify a download
+
+Every release is signed. Before you run anything, check the signature against this key fingerprint; it is published here and on [northmeadow.ai](https://northmeadow.ai), so you can compare two places:
+
+```
+SHA256:CzC/Gd6E6tP6tVgKku77rfAxMwoSonPekhBGGUz/W8s
+```
+
+The release notes give the exact commands. Questions and ideas: [Discussions](https://github.com/bavarian-studio/northmeadow/discussions).
 
 ## Help shape it
 
