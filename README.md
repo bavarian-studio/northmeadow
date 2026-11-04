@@ -54,6 +54,10 @@ SHA256:CzC/Gd6E6tP6tVgKku77rfAxMwoSonPekhBGGUz/W8s
 
 The release notes give the exact commands. Questions and ideas: [Discussions](https://github.com/bavarian-studio/northmeadow/discussions).
 
+## Getting the next version
+
+When a newer alpha comes out, you install it the same way as this one, and it keeps what is already here: your notes, your mandates, your PINs and your printed recovery key keep working. If a future version ever cannot take over something from this one, its release notes will say so before you install it, and will tell you how to save a readable copy of your notes first (open the mandate and choose "Save a readable copy of everything"). Do not delete the folder `.northmeadow-alpha` in your home folder: that is where Northmeadow keeps your sealed notes and keys.
+
 ## Help shape it
 
 [Report a bug](https://github.com/bavarian-studio/northmeadow/issues/new?template=bug.yml),
